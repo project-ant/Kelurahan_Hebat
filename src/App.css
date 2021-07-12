@@ -1,38 +1,511 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.background{
+  background-color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Navbar */
+.navbar {
+  background-color: #FF0000;
+  border-radius: 0px 0px 10px 10px;
+  width: 1140px;
+  height: 125px;
+  left: 180px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.nav-item {
+  margin-right: 30px;
+  font-size: 22px;
+  font-family: 'Raleway';
+  line-height: 26px;
+}
+
+.navbar-nav {
+  margin-left: 550px;
+}
+
+.title {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  padding-bottom: 10px;
+}
+
+.titled {
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 35px;
+  position: absolute;
+}
+
+/* Judul Halaman */
+.titlekelurahan {
+  font-size: 48px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  margin-top: 145px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  line-height: 56px;
+  letter-spacing: 0.05em;
 }
 
-.App-link {
-  color: #61dafb;
+.titlekelurahan2 {
+  font-size: 22;
+  font-family: 'Raleway';
+  font-weight: 400;
+  justify-content: center;
+  text-align: center;
+  line-height: 26px;
+  letter-spacing: 0.05em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Search Bar */
+.search {
+  margin-top: 50px;
+  width: 655px;
+  height: 53px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 16px;
+  font-size: 22px;
+  font-family: 'Raleway';
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #8D8D8D;
+  padding-left: 30px;
+  margin-left: 400px;
+}
+
+.btn{
+  margin-bottom: 9px;
+}
+
+/* Pemimpin Daerah */
+
+.leader{
+  margin-top: 155px;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0.05em;
+}
+
+.Walikota-pic{
+  width: 336px;
+  height: 332px;
+  margin-bottom: 45px;
+  margin-left: 360px;
+}
+
+.Wakil-pic{
+  width: 365px;
+  height: 369px;
+  margin-left: 125px;
+}
+
+.Walikota-name{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+letter-spacing: 0.05em;
+color: #000000;
+position: absolute;
+margin-left: 320px;
+}
+
+.Wakil-name{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+letter-spacing: 0.05em;
+color: #000000;
+margin-left: 820px;
+}
+
+.Jabatan1{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  position: absolute;
+  margin-left: 410px;
+  color: #000000;
+}
+
+.Jabatan2{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-left: 870px;
+}
+
+.visiMisi {
+  margin-left: 472px;
+  margin-top: 50px;
+}
+
+.selengkapnya{
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+margin-top: 18px;
+}
+
+/* Informasi */
+.kelurahan1-svg{
+  width: 512.76px;
+  height: 292px;
+  margin-left: 190px;
+  margin-top: 148px;
+}
+
+
+.Bold1{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 137.19%;
+color: #000000;
+margin-left: 790px;
+margin-top: -260px;
+}
+
+.p1{
+width: 493px;
+height: 200.07px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 137.19%;
+color: #000000;
+margin-left: 790px;
+}
+
+.kelurahan2-svg{
+width: 398px;
+height: 359px;
+margin-left: 850px;
+margin-top: 120px;
+}
+
+.Bold2{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 137.19%;
+  color: #000000;
+  margin-left: 200px;
+  margin-top: -290px;
   }
-  to {
-    transform: rotate(360deg);
+
+.p2{
+  width: 493px;
+  height: 200.07px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 137.19%;
+  color: #000000;
+  margin-left: 200px;
+}
+
+/* List Kelurahan */
+
+.JudulList{
+  width: 800px;
+  height: 56px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-top: 165px;
+  margin-left: 365px;
+}
+
+.IsiList{
+  width: 456px;
+  height: 26px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-top: 10px;
+  margin-left: 535px;
+}
+
+/* Card */
+.card1 {
+  width: 315px;
+  height: 200px;
+  border-radius: 0px;
+  background: url(/src/assets/images/Paceda.svg);
+  margin-left: 192px;
+  margin-top: 58px;
+}
+
+.rectangle {
+  width: 315px;
+  height: 200px;
+  margin-top: 60px;
+}
+
+.kelurahan-text{
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-top: -130px;
+  margin-left: 15px;
+  font-family: Raleway;
+}
+
+.kecamatan-text{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-left: 15px;
+  margin-top: -10px;
+}
+
+.card2 {
+  width: 315px;
+  height: 200px;
+  border-radius: 0px;
+  background: url(/src/assets/images/Paceda.svg);
+  margin-left: 600px;
+  margin-top: -200px;
+}
+
+.card3 {
+  width: 315px;
+  height: 200px;
+  border-radius: 0px;
+  background: url(/src/assets/images/Paceda.svg);
+  margin-left: 1000px;
+  margin-top: -200px;
+}
+
+.selengkapnya2{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+  margin-top: 70px;
+}
+
+  /* Berita Bitung */
+  .Tag{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-top: 170px;
   }
+
+  .row1{
+    margin-top: 50px;
+    display: flex 0 1 24%;;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .more{
+    margin-top: 20px;
+    margin-left: 1350px;
+  }
+
+/* Informasi Covid */
+.covid {
+  margin-top : 150px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+}
+
+.corona-svg{
+  margin-left: 170px;
+  margin-top : 50px;
+}
+
+.corona-text{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  width: 597px;
+  height: 195.81px;
+  margin-left: 700px;
+  margin-top: -290px;
+}
+
+/* Tentang Kami */
+.tentang{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+color: #000000;
+margin-top: 200px;
+}
+
+.lineleft{
+  margin-top: -90px;
+  margin-left: 150px;
+}
+
+.lineright{
+  margin-top: -141px;
+  margin-left: 990px;
+}
+
+/* Footer */
+
+.LogoKotaBitung{
+  width: 78px;
+  height: 80px;
+  margin-left: 155px;
+}
+
+.JudulFooter{
+  width: 311px;
+  height: 29px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+}
+
+.title-footer {
+  margin-left: 40px;
+  margin-top: -75px;
+  font-weight: bold;
+}
+
+.text-portal {
+  width: 282px;
+  height: 42px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  margin-left: 40px;
+}
+
+.text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  margin-left: -25px;
+}
+
+.styling2 {
+  margin-top: 10px;
+}
+
+.styling3 {
+  margin-top: 10px;
+}
+
+.medsos {
+  margin-left: 850px;
+  margin-top: -95px;
+}
+
+.twitt {
+  margin-left: 20px;
+}
+
+.ig {
+  margin-left: 20px;
+}
+
+.yt {
+  margin-left: 20px;
+}
+
+.sosmed {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 85px;
+}
+
+.end {
+  margin-top: 40px;
+}
+
+.text-akhir {
+  margin-top: 10px;
+  text-align: center;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
 }
